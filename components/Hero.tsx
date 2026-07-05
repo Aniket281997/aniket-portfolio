@@ -6,12 +6,12 @@ import {
   MapPin,
   Phone,
 } from "lucide-react";
-import { FaLinkedinIn } from "react-icons/fa";
+import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
 
 export default function Hero() {
   return (
     <section className="hero-section" id="hero">
-      <div className="container" style={{textAlign:'center'}}>
+      <div className="container" style={{ textAlign: 'center' }}>
         <div className="profile-wrapper">
           <div className="profile-ring">
             <Image
@@ -27,7 +27,7 @@ export default function Hero() {
 
         <div className="green-badge"><span className="green-dot"></span>Available · Open to opportunities</div>
 
-    
+
         {/* Name */}
 
         <h1 className="hero-title">
@@ -56,19 +56,19 @@ export default function Hero() {
             Pune, Maharashtra, India
           </div>
 
-          <div><Globe size={18}/> Remote & On-site</div>
+          <div><Globe size={18} /> Remote & On-site</div>
         </div>
 
         {/* Buttons */}
 
         <div className="hero-buttons">
-         
+
           <a
             href="https://www.linkedin.com/in/aniket-sadaphale-177b5a186/"
             target="_blank"
             className="hero-btn"
           >
-            <FaLinkedinIn  size={18} />
+            <FaLinkedinIn size={18} />
             LinkedIn
           </a>
 
@@ -86,7 +86,17 @@ export default function Hero() {
           >
             <Phone size={16} /> Call
           </a>
-          
+
+          <a
+            href="https://wa.me/917028732496?text=Hi%20Aniket"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="hero-btn"
+          >
+            <FaWhatsapp size={18} />
+            WhatsApp
+          </a>
+
           <a
             href="/Frontend developer aniket sadaphale 4+.pdf"
             className="hero-btn primary"

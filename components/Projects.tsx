@@ -72,7 +72,7 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section className="projects" id="projects">
+    <section className="projects sections" id="projects">
 
       <HeaderSection number="02. PROJECTS" title="What I've Built" />
       <div className="container">

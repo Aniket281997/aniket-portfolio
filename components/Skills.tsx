@@ -59,7 +59,7 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section className="skills-section" id="skills">
+    <section className="skills-section sections" id="skills">
       <HeaderSection
         number="04. SKILLS"
         title="Technologies & Tools"

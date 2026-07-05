@@ -12,7 +12,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 export default function Contact() {
   return (
 
-    <section className="" id="contact">
+    <section className="contact-section sections" id="contact">
       <HeaderSection
         number="05. CONTACT"
         title="Let's Work Together"

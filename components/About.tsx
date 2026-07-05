@@ -28,7 +28,7 @@ const highlights = [
 
 export default function About() {
   return (
-    <section className="about-section" id="about">
+    <section className="about-section sections" id="about">
         <HeaderSection number="01. ABOUT" title="A bit about me"/>
       <div className="container">
 

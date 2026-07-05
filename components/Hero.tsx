@@ -10,7 +10,7 @@ import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="hero-section">
+    <section className="hero-section" id="hero">
       <div className="container" style={{textAlign:'center'}}>
         <div className="profile-wrapper">
           <div className="profile-ring">
@@ -24,6 +24,8 @@ export default function Hero() {
             />
           </div>
         </div>
+
+        <div className="green-badge"><span className="green-dot"></span>Available · Open to opportunities</div>
 
     
         {/* Name */}

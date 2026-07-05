@@ -36,13 +36,13 @@ export default function About() {
 
           <div className="hero-description">
             <p>
-              I'm a <strong>Frontend Developer</strong> with <strong>4+ years</strong>
-              of experience building scalable single-page applications using
-              <span className="highlight"> Angular, React.js and Next.js</span>.
-              I've delivered real-time platforms, admin dashboards,
-              white-label products and CRM tools for gaming, retail and
-              enterprise clients.
-            </p>
+  I'm a <strong>Frontend Developer</strong> with <strong>4+ years</strong>
+  of experience building scalable single-page applications using
+  <span className="highlight"> Angular, React.js and Next.js</span>.
+  I've delivered real-time platforms, admin dashboards, white-label
+  gaming products, and CRM automation tools for iGaming, retail and
+  political sector clients.
+</p>
 
             <p>
               I enjoy building reusable components, writing clean code,

@@ -6,67 +6,43 @@ const projects = [
   {
     title: "iGaming Platform",
     description: [
-      "Built responsive websites and admin dashboards.",
-      "Developed reusable component libraries.",
-      "Integrated authentication and payment gateways.",
-      "Collaborated with backend developers."
-    ], tech: [
-      "Next.js",
-      "React.js",
-      "TypeScript",
-      "Redux Toolkit",
-      "RTK Query",
-      "WebSocket",
+      "Developed multiple white-label gaming platforms with customizable themes and client-specific configurations.",
+      "Built category-based game listings, authentication flows, payment integrations, and responsive gaming interfaces.",
+      "Implemented iframe-based game launching and dynamic content rendering modules.",
+      "Integrated real-time functionality for user interactions and live updates.",
+      "Built configurable theming system supporting light/dark mode and per-client branding.",
     ],
+    tech: ["Next.js", "React.js", "TypeScript", "Redux Toolkit", "WebSocket", "REST API"],
   },
   {
-    title: "Smart Office",
+    title: "Chatbot – Customer Support & Admin Management",
     description: [
-      "Built responsive websites and admin dashboards.",
-      "Developed reusable component libraries.",
-      "Integrated authentication and payment gateways.",
-      "Collaborated with backend developers."
-    ], tech: [
-      "Angular",
-      "TypeScript",
-      "Angular Material",
-      "RxJS",
-      "REST API",
-      "SCSS",
+      "Built a real-time customer support platform with separate Customer and Admin panels.",
+      "Implemented role-based access control for Master Admin and Agents with permission-based page access.",
+      "Enabled multi-bot management across multiple websites and platforms.",
+      "Built customization modules for themes, fonts, colors, and predefined messages.",
     ],
+    tech: ["React.js", "Redux Toolkit", "WebSocket", "REST API", "RTK Query"],
   },
   {
-    title: "Lucky Spin Wheel",
+    title: "Mariomint - CRM (B2B)",
     description: [
-      "Built responsive websites and admin dashboards.",
-      "Developed reusable component libraries.",
-      "Integrated authentication and payment gateways.",
-      "Collaborated with backend developers."
-    ], tech: [
-      "React.js",
-      "TypeScript",
-      "Redux Toolkit",
-      "Konva.js",
-      "RTK Query",
-      "REST API",
+      "Developed campaign automation modules for customer acquisition and engagement workflows.",
+      "Built bulk customer import and categorization based on deposits and registration status.",
+      "Implemented automated Email, SMS, and WhatsApp messaging workflows.",
+      "Built hierarchy-based automation triggers for multi-level customer journeys.",
     ],
+    tech: ["Next.js", "React.js", "TypeScript", "Redux", "Tailwind CSS", "REST API"],
   },
   {
-    title: "Mariomint Campaign",
+    title: "Smart Office – Office Management Platform",
     description: [
-      "Built responsive websites and admin dashboards.",
-      "Developed reusable component libraries.",
-      "Integrated authentication and payment gateways.",
-      "Collaborated with backend developers."
+      "Developed an Angular-based web application for politicians to manage meetings, visits, and events.",
+      "Implemented event scheduling, record tracking, and dashboard modules.",
+      "Built responsive UI using Angular Material for accessibility across devices.",
+      "Optimized performance using lazy loading and reusable component architecture.",
     ],
-    tech: [
-      "Next.js",
-      "React.js",
-      "TypeScript",
-      "Redux",
-      "Tailwind CSS",
-      "REST API",
-    ],
+    tech: ["Angular", "TypeScript", "Angular Material", "RxJS", "REST API"],
   },
 ];
 

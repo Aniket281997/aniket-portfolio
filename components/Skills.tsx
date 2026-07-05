@@ -5,55 +5,23 @@ import HeaderSection from "./ui/Header";
 const skills = [
   {
     title: "Frontend",
-    items: [
-      "React.js",
-      "Next.js",
-      "Angular",
-      "TypeScript",
-      "JavaScript",
-      "HTML5",
-      "CSS3",
-      "SCSS",
-      "Tailwind CSS",
-      "Bootstrap",
-    ],
+    items: ["Angular", "React.js", "Next.js", "JavaScript", "TypeScript", "HTML5"],
+  },
+  {
+    title: "UI Frameworks",
+    items: ["Angular Material", "PrimeNG", "Bootstrap"],
   },
   {
     title: "State Management",
-    items: [
-      "Redux Toolkit",
-      "RTK Query",
-      "Context API",
-      "RxJS",
-      "React Hooks",
-      "NgRx",
-    ],
+    items: ["NgRx", "Redux Toolkit", "RxJS"],
   },
   {
-    title: "Backend & APIs",
-    items: [
-      "Node.js",
-      "Express.js",
-      "REST API",
-      "WebSocket",
-      "JWT",
-      "Firebase",
-    ],
+    title: "Concepts & Architecture",
+    items: ["REST APIs", "WebSocket", "Lazy Loading", "Axios", "Responsive Design", "Cross-Browser Compatibility"],
   },
   {
-    title: "Tools & Others",
-    items: [
-      "Git",
-      "GitHub",
-      "VS Code",
-      "Vercel",
-      "Postman",
-      "Figma",
-      "Jira",
-      "Webpack",
-      "npm",
-      "Yarn",
-    ],
+    title: "Tools & Version Control",
+    items: ["Git", "Bitbucket", "VS Code", "Postman"],
   },
 ];
 

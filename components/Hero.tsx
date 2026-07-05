@@ -64,7 +64,7 @@ export default function Hero() {
         <div className="hero-buttons">
          
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/aniket-sadaphale-177b5a186/"
             target="_blank"
             className="hero-btn"
           >

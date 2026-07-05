@@ -20,11 +20,10 @@ export default function Contact() {
         <div className="container" style={{ textAlign: 'center' }}>
           {/* Description */}
 
-          <p className="hero-description">
-            I'm currently available for full-time opportunities,
-            freelance projects, and exciting collaborations.
-            Feel free to reach out anytime.
-          </p>
+        <p className="hero-description">
+  I'm currently available for full-time opportunities
+  and exciting collaborations. Feel free to reach out anytime.
+</p>
 
           {/* Buttons */}
           <a
@@ -38,7 +37,7 @@ export default function Contact() {
           <div className="hero-buttons">
 
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/aniket-sadaphale-177b5a186/"
               target="_blank"
               className="hero-btn"
             >

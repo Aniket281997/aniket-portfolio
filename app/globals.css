@@ -687,7 +687,7 @@ ABOUT
   }
 
   .timeline-item::before {
-    left: 11px !important;
+    left: 7px !important;
   }
 
   .timeline-card h3 {
@@ -762,6 +762,11 @@ ABOUT
 
 @media (max-width: 576px) {
 
+  .main{
+    padding: 0px 20px;
+    padding-bottom: 50px;
+  }
+
   .about-card {
     padding: 24px;
   }
@@ -817,5 +822,8 @@ ABOUT
 
   .hero-buttons{
     gap: 10;
+  }
+  .hero-btn{
+    padding: 15px;
   }
 }

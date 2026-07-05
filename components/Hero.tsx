@@ -98,7 +98,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="/Frontend developer aniket sadaphale 4+.pdf"
+            href="/Aniket-Sadaphale-Frontend-Developer.pdf"
             className="hero-btn primary"
           >
             <Download size={18} />

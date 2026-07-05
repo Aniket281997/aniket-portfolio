@@ -10,10 +10,11 @@ export default function Home() {
   return (
     <main className="">
       <Hero />
-      {/* <br style={{border:'3px solid red'}}/> */}
-      {/* <Experience /> */}
-      {/* <Projects />
-      <Skills /> */}
+      <About/>
+      <Experience />
+      <Projects />
+      <Skills />
+      <Contact/>
     </main>
   );
 }

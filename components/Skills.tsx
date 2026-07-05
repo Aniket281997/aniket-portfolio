@@ -1,5 +1,7 @@
 "use client";
 
+import HeaderSection from "./ui/Header";
+
 const skills = [
   {
     title: "Frontend",
@@ -58,22 +60,18 @@ const skills = [
 export default function Skills() {
   return (
     <section className="skills-section" id="skills">
+      <HeaderSection
+        number="04. SKILLS"
+        title="Technologies & Tools"
+      />
+
       <div className="container">
-
-        <span className="section-subtitle">
-          // 03. SKILLS
-        </span>
-
-        <h2 className="section-title">
-          Technologies & Tools
-        </h2>
-
-        <div className="skills-grid">
+        <div className="project-grid">
           {skills.map((category) => (
-            <div className="skill-card" key={category.title}>
+            <div className="timeline-card" key={category.title}>
               <h3>{category.title}</h3>
 
-              <div className="skill-tags">
+              <div className="skills">
                 {category.items.map((skill) => (
                   <span key={skill}>{skill}</span>
                 ))}
@@ -81,7 +79,6 @@ export default function Skills() {
             </div>
           ))}
         </div>
-
       </div>
     </section>
   );

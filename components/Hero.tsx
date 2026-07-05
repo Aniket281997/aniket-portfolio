@@ -1,15 +1,17 @@
 import Image from "next/image";
 import {
   Download,
+  Globe,
   Mail,
   MapPin,
+  Phone,
 } from "lucide-react";
 import { FaLinkedinIn } from "react-icons/fa";
 
 export default function Hero() {
   return (
     <section className="hero-section">
-      <div className="container">
+      <div className="container" style={{textAlign:'center'}}>
         <div className="profile-wrapper">
           <div className="profile-ring">
             <Image
@@ -41,9 +43,7 @@ export default function Hero() {
         {/* Description */}
 
         <p className="hero-description">
-          Frontend Developer with 4+ years of experience building
-          scalable web applications using Angular, React, Next.js,
-          TypeScript, and modern frontend technologies.
+          Frontend Developer with 4+ years of experience building scalable, high-performance SPAs using Angular, React.js, Next.js, and TypeScript. Passionate about clean architecture, responsive UI, and real-time applications.
         </p>
 
         {/* Location */}
@@ -54,7 +54,7 @@ export default function Hero() {
             Pune, Maharashtra, India
           </div>
 
-          <div>🌍 Available for remote and on-site opportunities</div>
+          <div><Globe size={18}/> Remote & On-site</div>
         </div>
 
         {/* Buttons */}
@@ -78,6 +78,13 @@ export default function Hero() {
             Email
           </a>
 
+          <a
+            href="tel:+917028732496"
+            className="hero-btn"
+          >
+            <Phone size={16} /> Call
+          </a>
+          
           <a
             href="/resume.pdf"
             className="hero-btn primary"

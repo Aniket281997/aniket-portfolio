@@ -1,9 +1,16 @@
 "use client";
-const projects = [{
+
+import HeaderSection from "./ui/Header";
+
+const projects = [
+  {
     title: "iGaming Platform",
-    description:
-      "Developed a scalable white-label iGaming platform with multi-brand support, authentication, wallet integration, multilingual support and responsive UI. Integrated REST APIs and optimized application performance.",
-    tech: [
+    description: [
+      "Built responsive websites and admin dashboards.",
+      "Developed reusable component libraries.",
+      "Integrated authentication and payment gateways.",
+      "Collaborated with backend developers."
+    ], tech: [
       "Next.js",
       "React.js",
       "TypeScript",
@@ -11,83 +18,76 @@ const projects = [{
       "RTK Query",
       "WebSocket",
     ],
-  },]
-// const projects = [
-//   {
-//     title: "iGaming Platform",
-//     description:
-//       "Developed a scalable white-label iGaming platform with multi-brand support, authentication, wallet integration, multilingual support and responsive UI. Integrated REST APIs and optimized application performance.",
-//     tech: [
-//       "Next.js",
-//       "React.js",
-//       "TypeScript",
-//       "Redux Toolkit",
-//       "RTK Query",
-//       "WebSocket",
-//     ],
-//   },
-//   {
-//     title: "Smart Office",
-//     description:
-//       "Built an office management platform for appointment scheduling, visitor management, event tracking and dashboards. Developed reusable Angular components and integrated REST APIs.",
-//     tech: [
-//       "Angular",
-//       "TypeScript",
-//       "Angular Material",
-//       "RxJS",
-//       "REST API",
-//       "SCSS",
-//     ],
-//   },
-//   {
-//     title: "Lucky Spin Wheel",
-//     description:
-//       "Created an interactive lucky spin wheel with campaign management, configurable rewards, animations, winner history and responsive UI for promotional events.",
-//     tech: [
-//       "React.js",
-//       "TypeScript",
-//       "Redux Toolkit",
-//       "Konva.js",
-//       "RTK Query",
-//       "REST API",
-//     ],
-//   },
-//   {
-//     title: "Mariomint Campaign",
-//     description:
-//       "Developed a marketing campaign management platform with user import, campaign creation, coupon management, template builder and analytics dashboard.",
-//     tech: [
-//       "Next.js",
-//       "React.js",
-//       "TypeScript",
-//       "Redux",
-//       "Tailwind CSS",
-//       "REST API",
-//     ],
-//   },
-// ];
+  },
+  {
+    title: "Smart Office",
+    description: [
+      "Built responsive websites and admin dashboards.",
+      "Developed reusable component libraries.",
+      "Integrated authentication and payment gateways.",
+      "Collaborated with backend developers."
+    ], tech: [
+      "Angular",
+      "TypeScript",
+      "Angular Material",
+      "RxJS",
+      "REST API",
+      "SCSS",
+    ],
+  },
+  {
+    title: "Lucky Spin Wheel",
+    description: [
+      "Built responsive websites and admin dashboards.",
+      "Developed reusable component libraries.",
+      "Integrated authentication and payment gateways.",
+      "Collaborated with backend developers."
+    ], tech: [
+      "React.js",
+      "TypeScript",
+      "Redux Toolkit",
+      "Konva.js",
+      "RTK Query",
+      "REST API",
+    ],
+  },
+  {
+    title: "Mariomint Campaign",
+    description: [
+      "Built responsive websites and admin dashboards.",
+      "Developed reusable component libraries.",
+      "Integrated authentication and payment gateways.",
+      "Collaborated with backend developers."
+    ],
+    tech: [
+      "Next.js",
+      "React.js",
+      "TypeScript",
+      "Redux",
+      "Tailwind CSS",
+      "REST API",
+    ],
+  },
+];
 
 export default function Projects() {
   return (
     <section className="projects" id="projects">
+
+      <HeaderSection number="02. PROJECTS" title="What I've Built" />
       <div className="container">
-
-        <span className="experience-subtitle">
-          // 02. PROJECTS
-        </span>
-
-        <h2 className="experience-title">
-          What I've Built
-        </h2>
-
         <div className="project-grid">
           {projects.map((project, index) => (
-            <div className="project-card" key={index}>
+            <div className="timeline-card" key={index}>
               <h3>{project.title}</h3>
 
-              <p>{project.description}</p>
+              <ul>
+                {project.description.map((point, i) => (
+                  <li key={i}>{point}</li>
+                ))}
+              </ul>
 
-              <div className="tech-stack">
+              <div className="skills">
                 {project.tech.map((tech) => (
                   <span key={tech}>{tech}</span>
                 ))}

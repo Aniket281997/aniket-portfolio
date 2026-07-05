@@ -1,5 +1,7 @@
 "use client";
 
+import HeaderSection from "./ui/Header";
+
 const experiences = [
   {
     side: "left",
@@ -47,15 +49,8 @@ const experiences = [
 export default function Experience() {
   return (
     <section className="experience-section" id="experience">
-
-      <span className="experience-subtitle">
-        // 01. EXPERIENCE
-      </span>
-
-      <h2 className="experience-title">
-        My Professional Journey
-      </h2>
-
+      <HeaderSection number="02. EXPERIENCE" title="My Professional Journey"/>
+ 
       <div className="timeline">
 
         {experiences.map((item, index) => (

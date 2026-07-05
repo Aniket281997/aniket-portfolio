@@ -36,8 +36,8 @@ const experiences = [
 export default function Experience() {
   return (
     <section className="sections" id="experience">
-      <HeaderSection number="02. EXPERIENCE" title="My Professional Journey"/>
- 
+      <HeaderSection number="02. EXPERIENCE" title="My Professional Journey" />
+
       <div className="timeline">
 
         {experiences.map((item, index) => (

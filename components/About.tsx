@@ -29,20 +29,20 @@ const highlights = [
 export default function About() {
   return (
     <section className="about-section sections" id="about">
-        <HeaderSection number="01. ABOUT" title="A bit about me"/>
+      <HeaderSection number="01. ABOUT" title="A bit about me" />
       <div className="container">
 
         <div className="about-grid">
 
           <div className="hero-description">
             <p>
-  I'm a <strong>Frontend Developer</strong> with <strong>4+ years</strong>
-  of experience building scalable single-page applications using
-  <span className="highlight"> Angular, React.js and Next.js</span>.
-  I've delivered real-time platforms, admin dashboards, white-label
-  gaming products, and CRM automation tools for iGaming, retail and
-  political sector clients.
-</p>
+              I'm a <strong>Frontend Developer</strong> with <strong>4+ years</strong>
+              of experience building scalable single-page applications using
+              <span className="highlight"> Angular, React.js and Next.js</span>.
+              I've delivered real-time platforms, admin dashboards, white-label
+              gaming products, and CRM automation tools for iGaming, retail and
+              political sector clients.
+            </p>
 
             <p>
               I enjoy building reusable components, writing clean code,
@@ -58,7 +58,7 @@ export default function About() {
 
               return (
                 <div className="about-card" key={item.title}>
-                  <Icon size={18} className="about-icon" />
+                  <Icon size={18} color="#00d4ff" />
 
                   <h3>{item.title}</h3>
 

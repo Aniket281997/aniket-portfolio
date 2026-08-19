@@ -18,7 +18,7 @@ const skills = [
   },
   {
     title: "UI Frameworks",
-    items: ["Angular Material", "PrimeNG", "Bootstrap", "HTML5", "HTML5"],
+    items: ["Angular Material", "PrimeNG", "Bootstrap", "HTML5", "CSS3"],
   },
   {
     title: "Concepts & Architecture",

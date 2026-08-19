@@ -50,7 +50,7 @@ export default function Projects() {
   return (
     <section className="projects sections" id="projects">
 
-      <HeaderSection number="02. PROJECTS" title="What I've Built" />
+      <HeaderSection number="02. PROJECTS" title="Projects" />
       <div className="container">
         <div className="project-grid">
           {projects.map((project, index) => (

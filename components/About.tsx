@@ -29,7 +29,7 @@ const highlights = [
 export default function About() {
   return (
     <section className="about-section sections" id="about">
-      <HeaderSection number="01. ABOUT" title="A bit about me" />
+      <HeaderSection number="01. ABOUT" title="About Me" />
       <div className="container">
 
         <div className="about-grid">

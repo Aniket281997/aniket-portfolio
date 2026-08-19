@@ -12,14 +12,14 @@ export default function Contact() {
     <section className="contact-section sections" id="contact">
       <HeaderSection
         number="05. CONTACT"
-        title="Let's Work Together"
+        title="Let's Connect"
       />
       <div className="container" style={{ textAlign: 'center' }}>
         {/* Description */}
 
         <p className="hero-description">
-          I'm currently available for full-time opportunities
-          and exciting collaborations. Feel free to reach out anytime.
+          I'm currently looking for Frontend Developer
+          opportunities in Angular, React.js and Next.js Feel free to reach out anytime.
         </p>
 
         {/* Buttons */}

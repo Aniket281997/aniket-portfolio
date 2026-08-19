@@ -96,7 +96,7 @@ body {
 }
 
 .hero-subtitle {
-  margin: 25px 0;
+  margin: 20px 0;
   color: #00c8ff;
   font-size: 17px;
   font-weight: 600;
@@ -162,12 +162,15 @@ body {
   font-size: 12px;
   letter-spacing: 5px;
   text-transform: uppercase;
+  display: none;
 }
 
 .experience-title {
   font-size: 38px;
   font-weight: 700;
   margin: 25px 0 50px;
+  color: #00d9ff;
+  letter-spacing: 2px;
 }
 
 .timeline {
@@ -383,10 +386,11 @@ body {
 }
 
 @media (max-width: 1200px) {
-  .main{
+  .main {
     max-width: 992px;
   }
-  .about-grid{
+
+  .about-grid {
     gap: 20px;
   }
 }
@@ -400,13 +404,13 @@ body {
     margin-top: 20px;
   }
 
-  .timeline-card{
+  .timeline-card {
     padding: 15px;
   }
 }
 
 @media (max-width: 900px) {
- 
+
   .timeline::before {
     left: 20px;
   }
@@ -449,7 +453,7 @@ body {
     font-size: 17px;
   }
 
-  .experience-title{
+  .experience-title {
     font-size: 26px;
   }
 
@@ -479,7 +483,7 @@ body {
 
 @media (max-width: 576px) {
 
-  .main{
+  .main {
     padding: 0px 20px;
     padding-bottom: 50px;
   }
@@ -501,26 +505,27 @@ body {
     font-size: 14px;
   }
 
-  .hero-title{
+  .hero-title {
     font-size: 28px;
   }
 
-  .hero-subtitle{
+  .hero-subtitle {
     font-size: 17px;
   }
 
-  .hero-description{
+  .hero-description {
     font-size: 16px;
   }
 
-  .hero-location{
+  .hero-location {
     gap: 10;
   }
 
-  .hero-buttons{
+  .hero-buttons {
     gap: 10;
   }
-  .hero-btn{
+
+  .hero-btn {
     padding: 15px;
   }
 }

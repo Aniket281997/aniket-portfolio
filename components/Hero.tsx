@@ -45,7 +45,7 @@ export default function Hero() {
         {/* Description */}
 
         <p className="hero-description">
-          Frontend Developer with 4+ years of experience building scalable, high-performance SPAs using Angular, React.js, Next.js, and TypeScript. Passionate about clean architecture, responsive UI, and real-time applications.
+          Frontend Developer with 4+ years of experience building scalable, high-performance web applications using Angular, React.js, Next.js, and TypeScript. Experienced in developing responsive UIs, integrating REST APIs and building and real-time applications.
         </p>
 
         {/* Location */}

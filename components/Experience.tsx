@@ -5,6 +5,19 @@ import HeaderSection from "./ui/Header";
 const experiences = [
   {
     side: "left",
+    duration: "Apr 2026 - Aug 2026",
+    title: "Senior Frontend Developer",
+    company: "Innovatics Solutions LLP",
+    points: [
+      "Architected scalable frontend applications for enterprise digital products using React.js and TypeScript, driving improved maintainability and delivery speed.",
+      "Translated business requirements into responsive, user-focused interfaces with a strong emphasis on usability and performance.",
+      "Enforced code quality, responsive design, accessibility, and cross-browser compatibility best practices across the development lifecycle.",
+      "Improved application performance through lazy loading, optimized component rendering, and reusable UI architecture."
+    ],
+    skills: ["React.js", "TypeScript", "Performance Optimization", "Accessibility"]
+  },
+  {
+    side: "right",
     duration: "May 2024 - Apr 2026",
     title: "Frontend Developer",
     company: "Autotroph Infotech",
@@ -18,7 +31,7 @@ const experiences = [
     skills: ["React.js", "Next.js", "Angular", "TypeScript", "WebSocket", "REST API"]
   },
   {
-    side: "right",
+    side: "left",
     duration: "Feb 2022 - Apr 2024",
     title: "Software Developer",
     company: "Infeon IT Services",
@@ -36,7 +49,7 @@ const experiences = [
 export default function Experience() {
   return (
     <section className="sections" id="experience">
-      <HeaderSection number="02. EXPERIENCE" title="My Professional Journey" />
+      <HeaderSection number="02. EXPERIENCE" title="Professional Experience" />
 
       <div className="timeline">
 

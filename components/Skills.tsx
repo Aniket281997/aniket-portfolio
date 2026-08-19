@@ -5,15 +5,20 @@ import HeaderSection from "./ui/Header";
 const skills = [
   {
     title: "Frontend",
-    items: ["Angular", "React.js", "Next.js", "JavaScript", "TypeScript", "HTML5"],
-  },
-  {
-    title: "UI Frameworks",
-    items: ["Angular Material", "PrimeNG", "Bootstrap"],
+    items: ["Angular", "React.js", "Next.js", "JavaScript", "TypeScript"],
   },
   {
     title: "State Management",
-    items: ["NgRx", "Redux Toolkit", "RxJS"],
+    items: ["NgRx", "Redux Toolkit", "RxJS", "Angular Signals", "RTK Query"],
+
+  },
+  {
+    title: "Backend & Database",
+    items: ["Node.js", "Express.js", "REST APIs", "JWT", "Authentication", "SQL", "MongoDB"],
+  },
+  {
+    title: "UI Frameworks",
+    items: ["Angular Material", "PrimeNG", "Bootstrap", "HTML5", "HTML5"],
   },
   {
     title: "Concepts & Architecture",
@@ -23,6 +28,7 @@ const skills = [
     title: "Tools & Version Control",
     items: ["Git", "Bitbucket", "VS Code", "Postman"],
   },
+
 ];
 
 export default function Skills() {
@@ -30,7 +36,7 @@ export default function Skills() {
     <section className="skills-section sections" id="skills">
       <HeaderSection
         number="04. SKILLS"
-        title="Technologies & Tools"
+        title="Technical Skills"
       />
 
       <div className="container">

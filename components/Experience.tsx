@@ -5,7 +5,7 @@ import HeaderSection from "./ui/Header";
 const experiences = [
   {
     side: "left",
-    duration: "Apr 2026 - Aug 2026",
+    duration: "Apr 2026 - Sept 2026",
     title: "Senior Frontend Developer",
     company: "Innovatics Solutions LLP",
     points: [

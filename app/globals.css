@@ -460,6 +460,8 @@ body {
   .project-grid {
     grid-template-columns: 1fr;
   }
+
+
 }
 
 @media (max-width: 600px) {
@@ -479,6 +481,7 @@ body {
   .date {
     font-size: 14px;
   }
+    
 }
 
 @media (max-width: 576px) {
@@ -527,5 +530,9 @@ body {
 
   .hero-btn {
     padding: 15px;
+  }
+
+  .contact-section{
+    margin-bottom: 80px;
   }
 }
